@@ -1,0 +1,42 @@
+insert into authors(author_name,bio,author_contact)
+values('dave gray','former lecturer Nkozi',0773676743),
+('Mosh Hamedani',' lecturer Makerere',0703676743),
+('Amigiscode','Author and a pythonist',0775643743);
+
+
+
+insert into books(book_title,book_price,publishing_date,publishing_year,isbn,book_status)
+values('clean code','$800',08-04,1998,12345670,'brought back '),
+('Amigoscode','$1100',01-08,1990,12345671,' not brought back '),
+('code gen','$1150',03-10,1980,12345672,'  brought back ');
+
+
+insert into company(company_name)
+values('Amigscode'),
+('Code Academy.com'),
+('FreeCode camp.com');
+
+
+insert into libririan(libririan_name,libririan_email,libririan_contact,libririan_shifts)
+values('Sarah James','sarah@gmail.com',078965432,'morning'),
+('Onen James','james12@gmail.com',078965333,'morning'),
+('Sharon Among','Amonglib@gmail.com',0707865432,'evening'),
+('Edna Bush','Busheda@gmail.com',078267836,'morning');
+
+
+
+insert into students(student_name,student_email,date_of_borrowing,date_of_returning)
+values('sensy otim','otim@gmail.com','08-9-2022','11-9-2022'),
+('Stephen Malinga','stephen@gmail.com','09-9-2022','10-9-2022'),
+('Anita Nanos','nanos144@gmail.com','08-9-2022','11-9-2022'),
+('sera Ariye','sear@gmail.com','09-9-2022','10-9-2022');
+
+
+
+select *from libririan
+select * from students
+
+select * from authors
+select * from books
+select*from company
+
